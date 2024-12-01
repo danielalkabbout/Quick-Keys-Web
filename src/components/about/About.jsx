@@ -13,8 +13,12 @@ const About = () => {
           <div className='left row'>
             <Heading title='Our Agency Story' subtitle='Check out our company story and work process' />
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+            <p>Welcome to QuickKeys, where we believe that a home is more than just a place—it's where the heart feels at ease. Specializing in practical and comfortable housing solutions, 
+              we aim to make your rental experience seamless and hassle-free.
+             At QuickKeys, we focus on creating spaces where you can truly feel at home, because your comfort is our priority.</p>
+            <p>At QuickKeys, we take pride in offering homes that are warm, inviting, and designed with your needs in mind. Our rentals may not be luxurious, but they provide the perfect balance of comfort and practicality.
+               With our slogan, "Where heart meets home,"
+              we're committed to helping you find a space that feels just right for you.</p>
             <button className='btn2'>More About Us</button>
           </div>
           <div className='right row'>
