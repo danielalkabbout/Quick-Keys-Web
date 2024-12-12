@@ -1,14 +1,20 @@
 import React, { useState } from "react";
 
-const RecentCard = ({ services }) => {
+const RecentCard = ({ services = [] }) => {
   const [likedProperties, setLikedProperties] = useState({});
 
+  // Handle heart click to toggle the liked status
   const handleHeartClick = (index) => {
     setLikedProperties((prev) => ({
       ...prev,
       [index]: !prev[index],
     }));
   };
+
+  // Conditional rendering for empty services
+  if (services.length === 0) {
+    return <p>No services available.</p>;
+  }
 
   return (
     <div className="content grid3 mtop">
