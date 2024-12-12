@@ -1,0 +1,17 @@
+.btn2 {
+    background-color: #a0b6cd; /* Red background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .btn2:hover {
+    background-color: #122947; /* Darker red on hover */
+  }
+  .p{
+    display: "flex";
+    justify-Content:"center";
+     color: "red" ;
+  }
