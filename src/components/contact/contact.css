@@ -1,28 +1,70 @@
-.contact form div {
-  display: flex;
-}
-.contact textarea {
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  width: 100%;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-.contact input {
-  margin-bottom: 20px;
-  margin-right: 10px;
-}
 .contact form {
   padding: 30px;
+  background: #fff; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
+
+.contact form h4 {
+  font-size: 1.5rem;
+  color: #333; /* Dark text for contrast */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact form div {
+  display: flex;
+  gap: 10px; /* Space between inputs */
+  margin-bottom: 20px;
+}
+
+.contact input,
+.contact textarea {
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Light border */
+  border-radius: 5px; /* Rounded corners for uniformity */
+  padding: 15px; /* Equal padding for all elements */
+  font-size: 1rem; /* Standard text size */
+  width: 100%; /* Full width for consistency */
+  margin-bottom: 20px; /* Add consistent bottom margin */
+  transition: border-color 0.3s ease; /* Smooth focus effect */
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  border-color: rgba(0, 0, 0, 0.3); /* Slightly darker border on focus */
+  outline: none; /* Remove default outline */
+}
+
+.contact textarea {
+  resize: none; /* Prevent resizing */
+  height: 120px; /* Set a default height */
+}
+
+.contact button {
+  width: 100%;
+  padding: 15px; /* Matching padding for consistency */
+  background: #a0b6cd; /* Updated button color */
+  color: #fff; /* White text for contrast */
+  font-size: 1rem;
+  border: none; /* No border for cleaner look */
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px; /* Add spacing above the button */
+  transition: background 0.3s ease;
+}
+
+.contact button:hover {
+  background: #8da4bc; /* Slightly darker shade on hover */
+}
+
 @media screen and (max-width: 768px) {
-  .contact h4 {
-    width: 100%;
-    margin-bottom: 30px;
-  }
   .contact form div {
-    flex-direction: column;
+    flex-direction: column; /* Stack inputs vertically */
+    gap: 10px; /* Adjust spacing */
   }
-  .contact input {
-    width: 100%;
+
+  .contact input,
+  .contact button {
+    width: 100%; /* Full-width inputs and button for mobile */
   }
 }

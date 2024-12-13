@@ -19,3 +19,42 @@
   border-top: 1px solid #e4e8f3;
   padding: 10px 30px;
 }
+.category {
+  display: flex;
+  justify-content: space-between; /* Ensures space between the category and the icons */
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons i {
+  font-size: 20px; /* Adjust heart icon size */
+  margin-right: 10px; /* Padding between the heart and WhatsApp button */
+}
+
+.btn-whatsapp {
+  background-color: #25d366; /* WhatsApp green */
+  color: white;
+  padding: 8px; /* Padding for the button */
+  border-radius: 50%; /* Make it circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px; /* Adjust the size of the WhatsApp icon */
+  width: 35px; /* Make it a perfect circle */
+  height: 35px; /* Ensure the button is circular */
+  transition: background-color 0.3s ease; /* Smooth color change on hover */
+}
+
+.btn-whatsapp:hover {
+  background-color: #128c7e; /* Darker green on hover */
+}
+
+.btn-whatsapp i {
+  font-size: 18px; /* Adjust WhatsApp icon size */
+  margin: 0; /* Remove any unwanted margin */
+}
+

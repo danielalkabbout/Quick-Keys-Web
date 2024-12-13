@@ -59,7 +59,7 @@ export const list = [
     name: "Downtown Realty",
     location: "Beirut Central District, Lebanon",
     category: "For Rent",
-    price: "$3,700",
+    price: "$3,700 ",
     type: "Apartment",
 },
 {

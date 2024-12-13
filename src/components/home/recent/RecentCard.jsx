@@ -37,11 +37,23 @@ const RecentCard = ({ services = [] }) => {
                 >
                   {category}
                 </span>
-                <i
-                  className={`fa fa-heart ${isLiked ? "liked" : ""}`}
-                  onClick={() => handleHeartClick(index)}
-                  style={{ color: isLiked ? "red" : "gray" }}
-                ></i>
+                <div className="icons">
+                  <i
+                    className={`fa fa-heart ${isLiked ? "liked" : ""}`}
+                    onClick={() => handleHeartClick(index)}
+                    style={{ color: isLiked ? "red" : "gray" }}
+                  ></i>
+
+                  {/* WhatsApp Button */}
+                  <a
+                    href={`https://wa.me/96171649624`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-whatsapp"
+                  >
+                    <i className="fab fa-whatsapp"></i> {/* Correct WhatsApp logo */}
+                  </a>
+                </div>
               </div>
               <h4>{name}</h4>
               <p>
