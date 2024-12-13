@@ -61,6 +61,7 @@ export const list = [
     category: "For Rent",
     price: "$1,200",  
     type: "Apartment",
+    description:"1 Bedroom, 1 Living Room"
   },
   {
     id: 2,

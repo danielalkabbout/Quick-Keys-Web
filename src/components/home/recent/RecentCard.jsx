@@ -19,7 +19,7 @@ const RecentCard = ({ services = [] }) => {
   return (
     <div className="content grid3 mtop">
       {services.map((val, index) => {
-        const { cover, category, location, name, price, type } = val;
+        const { cover, category, location, name, price, type ,description} = val;
         const isLiked = likedProperties[index];
 
         return (
@@ -51,7 +51,7 @@ const RecentCard = ({ services = [] }) => {
                     rel="noopener noreferrer"
                     className="btn-whatsapp"
                   >
-                    <i className="fab fa-whatsapp"></i> {/* Correct WhatsApp logo */}
+                    <i className="fab fa-whatsapp"></i> 
                   </a>
                 </div>
               </div>
@@ -59,6 +59,9 @@ const RecentCard = ({ services = [] }) => {
               <p>
                 <i className="fa fa-location-dot"></i> {location}
               </p>
+              <h5>
+            {description}
+              </h5>
             </div>
             <div className="button flex">
               <div>
