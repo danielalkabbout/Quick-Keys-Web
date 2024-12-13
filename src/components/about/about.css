@@ -1,3 +1,20 @@
+.back {
+  position: relative;
+  text-align: center;
+  color: #fff; /* Default color for text in Back component */
+}
+
+.back h1, 
+.back .title {
+  color: #fff; /* Ensure "Who We Are?" appears in white */
+}
+
+.back .title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
 .about {
   margin-bottom: 80px;
 }
@@ -13,6 +30,9 @@
   line-height: 30px;
 }
 @media screen and (max-width: 768px) {
+  .back .title {
+    font-size: 28px; /* Adjust font size for smaller screens */
+  }
   .about .container {
     flex-direction: column;
   }

@@ -1,20 +1,47 @@
-.btn1, .btn2 {
-  background-color: #a0b6cd; /* Blue background (same for both) */
-  color: white;
-  border: none;
-  padding: 6px 12px; /* Reduced padding for smaller size */
-  cursor: pointer;
-  margin-left: 10px;
-  font-size: 12px; /* Smaller font size */
-  border-radius: 5px; /* Optional: Rounded corners */
+form.flex {
+  display: flex;
+  justify-content: flex-start; /* Align fields to the left */
+  align-items: center; /* Center-align elements vertically */
+  gap: 10px; /* Spacing between elements */
+  margin-bottom: 20px;
+  flex-wrap: nowrap; /* Prevent wrapping */
+  overflow-x: auto; /* In case the form overflows horizontally */
 }
 
-.btn1:hover, .btn2:hover {
-  background-color: #122947; /* Darker blue on hover */
+form.flex .box {
+  display: flex;
+  flex-direction: column; /* Ensures label stays above input */
+  min-width: 200px; /* Minimum width for each input */
+  flex-grow: 1; /* Allow the box to grow and fill available space */
+}
+
+form.flex .box span {
+  font-size: 12px;
+  margin-bottom: 3px; /* Space between label and input */
+}
+
+form.flex .btn1,
+form.flex .btn2 {
+  background-color: #a0b6cd;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-left: 10px;
+  flex-shrink: 0; /* Prevent buttons from shrinking */
+}
+
+form.flex .btn1:hover,
+form.flex .btn2:hover {
+  background-color: #122947;
 }
 
 .p {
   display: flex;
-  justify-content: center; /* Fixed the CSS syntax */
+  justify-content: center;
   color: red;
+  font-size: 14px;
+  font-weight: bold;
 }
