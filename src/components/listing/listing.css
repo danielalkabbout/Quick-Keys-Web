@@ -36,7 +36,7 @@ form {
   form button {
     display: inline-block;
     padding: 10px 15px;
-    background-color: #007bff;
+    background-color: #a0b6cd;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -46,7 +46,7 @@ form {
   }
   
   form button:hover {
-    background-color: #0056b3;
+    background-color: #8da4bc;
   }
   
   /* Heading styles */
