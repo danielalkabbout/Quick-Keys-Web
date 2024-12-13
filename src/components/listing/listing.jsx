@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import RecentCard from "../home/recent/RecentCard" // Assuming RecentCard is a separate component
+import "./listing.css";
+
 
 const Listing = () => {
   // State to store the added services
