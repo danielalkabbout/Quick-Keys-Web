@@ -1,16 +1,20 @@
-
 .location .box {
   position: relative;
   border-radius: 5px;
-  overflow: hidden; /* Ensures the overlay and its ::after don't spill out */
+  overflow: hidden; /* Ensures the image and overlay don't spill out */
 }
 
 .location img {
   display: block;
   width: 100%;
   border-radius: 5px;
-  position: relative; /* Ensures the image remains behind the overlay */
-  z-index: 1; /* Sets the image below the overlay but above the box */
+  position: relative; /* Keeps the image behind the overlay */
+  z-index: 1; /* Ensures the image is below the overlay but above the box */
+  transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+.location .box:hover img {
+  transform: scale(1.1); /* Zooms the image on hover */
 }
 
 .location .overlay {
@@ -43,11 +47,13 @@
   font-size: 18px;
   font-weight: 500;
 }
+
 .location label {
   color: #fff;
   margin-right: 20px;
   opacity: 0.8;
 }
+
 @media screen and (max-width: 800px) {
   .location .overlay::after {
     width: 280px;
