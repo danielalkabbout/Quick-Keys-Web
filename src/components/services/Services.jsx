@@ -97,7 +97,7 @@ const Services = () => {
             <span>Price Range</span>
             <input
               type="text"
-              placeholder="Price Range(e.g., 200000-500000)"
+              placeholder=" $1,200 - $1,200,000."
               value={priceRange}
               onChange={(e) => setPriceRange(e.target.value)}
             />

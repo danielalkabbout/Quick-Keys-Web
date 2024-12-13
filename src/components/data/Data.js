@@ -61,7 +61,7 @@ export const list = [
     category: "For Rent",
     price: "$1,200",  
     type: "Apartment",
-    description:"1 Bedroom, 1 Living Room"
+    description: "1 Bedroom, 1 Living Room, 1 Bathroom, Gym access."
   },
   {
     id: 2,
@@ -71,6 +71,7 @@ export const list = [
     category: "For Sale",
     price: "$500,000",  
     type: "Villas",
+    description: "4 Bedrooms, 3 Bathrooms, Gym, Pool."
   },
   {
     id: 3,
@@ -80,6 +81,7 @@ export const list = [
     category: "For Rent",
     price: "$2,500",  
     type: "Offices",
+    description: "5 Rooms, 2 Bathrooms, Gym access."
   },
   {
     id: 4,
@@ -89,6 +91,7 @@ export const list = [
     category: "For Sale",
     price: "$1,200,000",  
     type: "Homes & Villas",
+    description: "5 Bedrooms, 6 Bathrooms, Gym, Pool."
   },
   {
     id: 5,
@@ -98,6 +101,7 @@ export const list = [
     category: "For Rent",
     price: "$1,800",  
     type: "Commercial",
+    description: "Open-plan, 2 Rooms, 1 Bathroom."
   },
   {
     id: 6,
@@ -107,6 +111,7 @@ export const list = [
     category: "For Sale",
     price: "$350,000",  
     type: "Apartment",
+    description: "2 Bedrooms, 1 Bathroom, Gym access."
   },
 ]
 
