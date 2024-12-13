@@ -2,22 +2,29 @@ form.flex {
   display: flex;
   justify-content: flex-start; /* Align fields to the left */
   align-items: center; /* Center-align elements vertically */
-  gap: 10px; /* Spacing between elements */
+  gap: 15px; /* Increased spacing between elements */
   margin-bottom: 20px;
-  flex-wrap: nowrap; /* Prevent wrapping */
-  overflow-x: auto; /* In case the form overflows horizontally */
+  flex-wrap: wrap; /* Allow wrapping for responsive layout */
 }
 
 form.flex .box {
   display: flex;
-  flex-direction: column; /* Ensures label stays above input */
-  min-width: 200px; /* Minimum width for each input */
+  flex-direction: column;
+  min-width: 220px; /* Set a minimum width for each box */
   flex-grow: 1; /* Allow the box to grow and fill available space */
+  margin-bottom: 10px; /* Space between the fields */
+}
+
+form.flex .box input {
+  padding: 12px; /* Increase padding for larger inputs */
+  font-size: 14px; /* Make the text a little bigger for better readability */
+  width: 100%; /* Make the input take up the full width of the box */
+  box-sizing: border-box; /* Ensure padding does not affect the width */
 }
 
 form.flex .box span {
-  font-size: 12px;
-  margin-bottom: 3px; /* Space between label and input */
+  font-size: 14px; /* Adjust label size */
+  margin-bottom: 5px; /* Space between label and input */
 }
 
 form.flex .btn1,
@@ -25,9 +32,9 @@ form.flex .btn2 {
   background-color: #a0b6cd;
   color: white;
   border: none;
-  padding: 6px 12px;
+  padding: 10px 15px; /* Increased padding for larger buttons */
   cursor: pointer;
-  font-size: 12px;
+  font-size: 14px; /* Larger font size for buttons */
   border-radius: 5px;
   margin-left: 10px;
   flex-shrink: 0; /* Prevent buttons from shrinking */
