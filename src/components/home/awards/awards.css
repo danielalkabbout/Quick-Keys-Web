@@ -3,18 +3,22 @@
   color: #fff;
   text-align: center;
 }
+
 .awards .heading {
   display: flex;
   flex-direction: column-reverse;
 }
+
 .awards .heading p {
   color: #a0b6cd;
 }
+
 .awards .heading h1 {
   color: #fff;
   font-size: 30px;
   font-weight: 400;
 }
+
 .awards .icon {
   width: 100px;
   height: 100px;
@@ -24,11 +28,18 @@
   background: rgba(255, 255, 255, 0.1);
   border-radius: 4% 50%;
   font-size: 32px;
-  color: #ffffff;
+  color: #ff9900; /* Color for icons */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
 }
+
+.awards .icon:hover {
+  color: #ffcc00; /* Lighter color on hover */
+}
+
 .awards h1 {
   font-size: 50px;
 }
+
 .awards p {
   color: grey;
 }

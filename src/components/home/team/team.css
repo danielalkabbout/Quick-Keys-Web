@@ -5,32 +5,38 @@
   padding: 2rem;
   transition: 0.5s;
 }
+
 .team .box:hover {
   box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
   cursor: pointer;
 }
+
 .team .details {
   text-align: center;
   margin-top: 30px;
 }
+
 .team .img {
-  width: 90px;
-  height: 90px;
+  width: 90px;  /* Width of the square */
+  height: 90px; /* Height of the square */
   margin: auto;
   position: relative;
 }
+
 .team img {
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image fits within the square */
 }
+
 .team .img i {
   color: #108be7;
   font-size: 17px;
   position: absolute;
-  top: 35px;
-  right: -10px;
+  top: 5px; /* Adjusts position of the verification icon */
+  right: -5px; /* Adjusts position to the right */
 }
+
 .team .img::after {
   content: "";
   position: absolute;
@@ -39,20 +45,24 @@
   width: 110px;
   height: 110px;
   border: 5px solid #edf0f5;
-  border-radius: 50%;
+  border-radius: 6px; /* Rounded corners for the outer border */
 }
+
 .team label {
   display: inline-block;
   margin-top: 20px;
 }
+
 .team i {
   color: grey;
   margin-right: 5px;
 }
+
 .team ul {
   display: inline-block;
   margin-top: 10px;
 }
+
 .team ul li {
   display: inline-block;
   width: 40px;
@@ -63,9 +73,11 @@
   border-radius: 50%;
   margin: 5px;
 }
+
 .team .button {
   margin-top: 20px;
 }
+
 .team .button i {
   color: white;
   font-size: 20px;
