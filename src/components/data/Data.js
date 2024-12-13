@@ -59,56 +59,56 @@ export const list = [
     name: "Downtown Realty",
     location: "Beirut Central District, Lebanon",
     category: "For Rent",
-    price: "$3,700 ",
+    price: "$1,200",  
     type: "Apartment",
-},
-{
+  },
+  {
     id: 2,
     cover: "../images/list/p-2.png",
     name: "Cedar Properties",
     location: "Zahle, Bekaa, Lebanon",
     category: "For Sale",
-    price: "$9,750",
+    price: "$500,000",  
     type: "Villas",
-},
-{
+  },
+  {
     id: 3,
     cover: "../images/list/p-7.png",
     name: "Phoenician Realty",
     location: "Tripoli Souks, Tripoli, Lebanon",
     category: "For Rent",
-    price: "$5,860",
+    price: "$2,500",  
     type: "Offices",
-},
-{
+  },
+  {
     id: 4,
     cover: "../images/list/p-4.png",
     name: "Lebanon Luxury Estates",
     location: "Fakra Village, Keserwan, Lebanon",
     category: "For Sale",
-    price: "$7,540",
+    price: "$1,200,000",  
     type: "Homes & Villas",
-},
-{
+  },
+  {
     id: 5,
     cover: "../images/list/p-5.png",
     name: "Byblos Heritage Realty",
     location: "Old Souk, Byblos, Lebanon",
     category: "For Rent",
-    price: "$4,850",
+    price: "$1,800",  
     type: "Commercial",
-},
-{
+  },
+  {
     id: 6,
     cover: "../images/list/p-6.png",
     name: "Cedars Real Estate",
     location: "Bcharre, North Lebanon",
     category: "For Sale",
-    price: "$2,742",
+    price: "$350,000",  
     type: "Apartment",
-},
-
+  },
 ]
+
 export const awards = [
   {
     icon: <i class='fa-solid fa-trophy'></i>,

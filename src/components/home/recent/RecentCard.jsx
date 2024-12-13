@@ -63,7 +63,6 @@ const RecentCard = ({ services = [] }) => {
             <div className="button flex">
               <div>
                 <button className="btn2">{price}</button>
-                <label>/sqft</label>
               </div>
               <span>{type}</span>
             </div>
