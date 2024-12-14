@@ -59,7 +59,7 @@ export const list = [
     name: "Downtown Realty",
     location: "Beirut Central District, Lebanon",
     category: "For Rent",
-    price: "$1,200",  
+    price: "$600",  
     type: "Apartment",
     description: "1 Bedroom, 1 Living Room, 1 Bathroom, Gym access."
   },
@@ -69,7 +69,7 @@ export const list = [
     name: "Cedar Properties",
     location: "Zahle Main Road, Bekaa, Lebanon",
     category: "For Sale",
-    price: "$500,000",  
+    price: "$200,000",  
     type: "Villas",
     description: "4 Bedrooms, 3 Bathrooms, Gym, Pool."
   },
@@ -79,7 +79,7 @@ export const list = [
     name: "Phoenician Realty",
     location: "Tripoli Souks, Tripoli, Lebanon",
     category: "For Rent",
-    price: "$2,500",  
+    price: "$1,000",  
     type: "Offices",
     description: "5 Rooms, 2 Bathrooms, Gym access."
   },
@@ -89,7 +89,7 @@ export const list = [
     name: "Lebanon Luxury Estates",
     location: "Fakra Village, Keserwan, Lebanon",
     category: "For Sale",
-    price: "$1,200,000",  
+    price: "$500,000",  
     type: "Homes & Villas",
     description: "5 Bedrooms, 6 Bathrooms, Gym, Pool."
   },
@@ -99,7 +99,7 @@ export const list = [
     name: "Byblos Heritage Realty",
     location: "Byblos Old Souks, Byblos, Lebanon",
     category: "For Rent",
-    price: "$1,800",  
+    price: "$800",  
     type: "Commercial",
     description: "Open-plan, 2 Rooms, 1 Bathroom."
   },
@@ -109,11 +109,12 @@ export const list = [
     name: "Cedars Real Estate",
     location: "Bcharre Main Road, North Lebanon",
     category: "For Sale",
-    price: "$350,000",  
+    price: "$150,000",  
     type: "Apartment",
     description: "2 Bedrooms, 1 Bathroom, Gym access."
   },
-]
+];
+
 
 export const awards = [
   {

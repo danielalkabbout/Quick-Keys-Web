@@ -4,6 +4,7 @@ import Back from "../common/Back";
 import "./contact.css";
 
 const Contact = () => {
+   // Defining state for form data
   const [formData, setFormData] = useState({
     name: "",
     email: "",

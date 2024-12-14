@@ -49,7 +49,7 @@ const Services = () => {
           }
         );
       } else {
-        alert("Invalid price range format. Use min-max (e.g., 200000-500000)");
+        alert("Invalid price range format. Use min-max (e.g., $600 - $500,000.)");
         return;
       }
     }
@@ -97,7 +97,7 @@ const Services = () => {
             <span>Price Range</span>
             <input
               type="text"
-              placeholder=" $1,200 - $1,200,000."
+              placeholder=" $600 - $500,000 "
               value={priceRange}
               onChange={(e) => setPriceRange(e.target.value)}
             />
